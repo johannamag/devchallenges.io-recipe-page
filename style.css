@@ -176,6 +176,50 @@ label {
   justify-content: flex-end;
 }
 
+.card {
+  padding: 60px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.fa-utensils,
+.fa-clock {
+  margin-right: 10px;
+  font-size: 27px;
+  color: var(--gray-intro);
+}
+
+.item-text {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--gray-light);
+}
+
+.black-text {
+  font-weight: 500;
+  text-transform: initial;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--gray-dark);
+}
+
+.orange {
+  color: var(--orange);
+}
+
 .bottom {
   color: var(--gray-mid);
   text-align: center;
