@@ -55,3 +55,7 @@ main {
   line-height: 17px;
   color: var(--gray-intro);
 }
+
+.hero {
+  width: 100%;
+}
