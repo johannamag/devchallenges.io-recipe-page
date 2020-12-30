@@ -26,3 +26,32 @@ main {
   margin: 0 auto;
   padding: 50px 20px;
 }
+
+.title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 12px;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.dots {
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+.intro-text {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--gray-intro);
+}
