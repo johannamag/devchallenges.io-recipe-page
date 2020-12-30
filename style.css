@@ -1,1 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap");
+
+:root {
+  --gray-mid: #a9a9a9;
+  --gray-light: #bdbdbd;
+  --gray-dark: #333333;
+  --gray-intro: #4f4f4f;
+  --orange: #f2994a;
+}
