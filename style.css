@@ -60,3 +60,118 @@ main {
   width: 100%;
   margin-bottom: 48px;
 }
+
+.flex {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.recipe {
+  flex: 220%;
+}
+
+.subtitle {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--gray-dark);
+}
+
+.subtitle-small {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--gray-dark);
+}
+
+.instruc {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.details {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+input {
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--gray-dark);
+}
+
+.big {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.part {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.part:last-child {
+  margin-bottom: 0;
+}
+
+.number {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
+  background-color: var(--orange);
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.instruction-text {
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 15px;
+}
+
+.source {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-light);
+  margin-top: 70px;
+}
+
+.source-link {
+  text-decoration: none;
+  color: var(--gray-light);
+  transition: all 0.4s ease-in-out;
+}
+
+.source-link:hover {
+  color: var(--orange);
+}
+
+.times {
+  flex: 80%;
+  justify-content: flex-end;
+}
